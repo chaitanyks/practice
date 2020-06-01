@@ -1,13 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void fab(int n){
-    int a=0;
+void fabonachi(int n){
+    int c=0;
     int b=1;
     for(int i=0;i<=n;i++){
-        cout<<a+b<<endl;
-        int temp=a;
-        a=b;
+        cout<<c+b<<endl;
+        int temp=c;
+        c=b;
         b=b+temp;
     }
 }
