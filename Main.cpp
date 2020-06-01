@@ -3,12 +3,12 @@ using namespace std;
 
 void fibonacci(int n){
     int t1=0;
-    int t2=1;
+    int t3=11;
     for(int i=0;i<=n;i++){
-        cout<<t1+t2<<endl;
+        cout<<t1+t3<<endl;
         int temp=t1;
-        t1=t2;
-        t2=t1+temp;
+        t1=t3;
+        t3=t1+temp;
 }
 }
 
