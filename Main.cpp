@@ -9,7 +9,7 @@ void fibonacci(int n){
         int temp=t1;
         t1=t2;
         t2=t1+temp;
-    }
+}
 }
 
 int main(){
