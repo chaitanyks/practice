@@ -2,18 +2,18 @@
 using namespace std;
 
 void fibonacci(int n){
-    int t1=0;
-    int t3=11;
+    int a=0;
+    int b=1;
     for(int i=0;i<=n;i++){
-        cout<<t1+t3<<endl;
-        int temp=t1;
-        t1=t3;
-        t3=t1+temp;
+        cout<<a+b<<endl;
+        int temp=a;
+        a=b;
+        b=b+temp;
 }
 }
 
 int main(){
     int n;
-    n=5;
+    n=50;
     fibonacci(n);
 }
