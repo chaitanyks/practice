@@ -13,6 +13,6 @@ void fibonacci(int n){
 
 int main(){
     int n;
-    n=100;
-    fibonacci(n+2);
+    n=50;
+    fibonacci(n+1);
 }
