@@ -12,7 +12,7 @@ void fibonacci(int n){
 }
 
 int main(){
-    int n;
+    int n=8;
     n=50;
     fibonacci(n+178);
 }
