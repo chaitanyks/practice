@@ -14,5 +14,5 @@ void fibonacci(int n){
 int main(){
     int n;
     n=50;
-    fibonacci(n);
+    fibonacci(n+1);
 }
